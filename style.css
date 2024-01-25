@@ -1,0 +1,140 @@
+.logo{
+    font-size: 50px;
+    color: #f67e7d !important;
+    font-family: "Great Vibes", cursive;
+    POSITION: absolute;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+.transparent-header {
+    position: fixed;
+    width: 100%;
+    background: #545b62;
+   /* Adjust the alpha (4th parameter) for transparency */
+    backdrop-filter: blur(10px);
+   /* Adjust the blur value based on your preference */
+    z-index: 1000;
+    transition: background 0.3s ease;
+}
+.transparent-header.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+   /* Change text color when the background is dark */
+}
+.navbar-brand img {
+    position: absolute;
+   /* top: 67%;
+    */
+   /* bottom: -32%;
+    */
+    left: 5%;
+    transform: translate(-50%, -50%);
+    max-width: 150px;
+   /* height: auto;
+    */
+    height: 115px;
+}
+.ftco-about h2 {
+    font-size: 64px;
+    color: #f67e7d;
+    font-family: "Great Vibes", cursive;
+}
+.ftco-about .text {
+    z-index: 3;
+}
+.ftco-about .subheading {
+    font-weight: 700;
+    display: block;
+    text-transform: uppercase;
+    font-family: "Libre Caslon Text", serif;
+}
+.ftco-about h2 {
+    font-size: 50px;
+    color: #f67e7d;
+    font-family: "Great Vibes", cursive;
+}
+.ftco-about .time {
+    font-family: "Libre Caslon Text", serif;
+    font-size: 48px;
+    color: rgba(0, 0, 0, 0.4);
+    text-transform: uppercase;
+}
+.heading-section {
+    position: relative;
+}
+.heading-section .subheading {
+    font-size: 12px;
+    display: block;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.3);
+    color: #f67e7d;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.heading-section h2 {
+    line-height: 1.2;
+    font-size: 90px;
+    font-weight: normal;
+    font-family: "Great Vibes", cursive;
+    color: #f67e7d;
+}
+@media (max-width: 991.98px) {
+    .heading-section h2 {
+        font-size: 50px;
+   }
+}
+.bg-secondary {
+    background: #dcf4e6 !important;
+}
+.btn.btn-primary {
+    background: #f67e7d;
+    border: 1px solid #f67e7d !important;
+    color: #fff !important;
+}
+.rsvp-form {
+    padding: 70px 50px 50px 50px;
+    background: #fff;
+}
+.image-container {
+    margin: 10px 0;
+}
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;    
+    padding: 10px;
+}
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);    
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.error {
+color:red;
+}
+.footer {
+    background-color: #545b62;
+    color: #ecf0f1;
+    padding: 20px 0;
+  }
+
+  .footer p {
+    margin-bottom: 0;
+  }
+
+  .social-icons a {
+    color: #ecf0f1;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s ease-in-out;
+  }
+
+  .social-icons a:hover {
+    color: #3498db;
+  }
